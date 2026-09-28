@@ -1,6 +1,6 @@
 cask "usagepet" do
-  version "0.3.0"
-  sha256 "a70e5fd1b266820756b60605abc074b53c57c1c1c30c667505a056bf819ef537"
+  version "0.4.0"
+  sha256 "58bf7a5fdb0c7a2f9aae3efc0070e41687aac99af222704847aa9c69fd693206"
 
   url "https://github.com/bqt1089/UsagePet/releases/download/v#{version}/UsagePet-#{version}.zip"
   name "UsagePet"
@@ -12,7 +12,7 @@ cask "usagepet" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "UsagePet.app"
 
