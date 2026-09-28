@@ -1,6 +1,6 @@
 cask "usagepet" do
   version "0.3.0"
-  sha256 "REPLACE_WITH_SHA256_FROM_RELEASE"
+  sha256 "a70e5fd1b266820756b60605abc074b53c57c1c1c30c667505a056bf819ef537"
 
   url "https://github.com/bqt1089/UsagePet/releases/download/v#{version}/UsagePet-#{version}.zip"
   name "UsagePet"
